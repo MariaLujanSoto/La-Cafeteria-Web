@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0"
+        />
+        <link
+            rel="shortcut icon"
+            href="./recursos/imagenes/favicon.svg"
+            type="image/x-icon"
+        />
+        <link rel="stylesheet" href="./recursos/css/base.css">
+        <title>La Caferería</title>
+
+        <script src="./recursos/js/index.js" type="module"></script>
+
+    </head>
+    
+    <body>
+        <header class="encabezado-principal">
+            <div>
+                <a
+                    href="./index.html"
+                    aria-label="logo ir al inicio"
+                >
+                    <img
+                        src="
+                ./recursos/imagenes/logo.svg"
+                        alt="Logo La Cafeteria"
+                    />
+                </a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="./index.html">Inicio</a></li>
+                    <li><a href="./contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main class="contenido-principal inicio">
+            <header class="hero">
+                <h1>La Cafeteria</h1>
+                <p>Bienvenidos a un lugar de aromas y sensaciones</p>
+                <a href="#carta">Ver carta</a>
+            </header>
+            <section
+                class="carta"
+                id="carta"
+                aria-labelledby="carta-titulo"
+            >
+                <h2 id="carta-titulo" class="tipo-h2">Productos</h2>
+
+                <div id="carta-productos" class="carta__productos">
+
+                    <article class="carta__producto">
+                        <div>
+                            <img src="ruta/de/imagen" alt="Descipcion Imagen">
+                            <h3>Nombre</h3>
+                        </div>
+                        <data value="precio" type="number">$ precio</data>
+
+                    </article>
+
+                </div>
+
+            </section>
+            <section
+                class="galeria"
+                aria-labelledby="galeria-principal"
+            >
+                <h2 id="galeria-principal" class="tipo-h2">Galeria</h2>
+                <div class="fotos">
+                    <img src="./recursos/imagenes/g-1.jpg" alt="Clientes de La Cafeteria">
+                    <img src="./recursos/imagenes/g-2.jpg" alt="Cafés de Especialidad en Las Cafeteria">
+
+                </div>
+            </section>
+        </main>
+
+
+        <footer class="pie-principal">
+            <ul>
+                <li>La Cafetería - 2024</li>
+                <li>
+                    <a
+                        target="_nuevo"
+                        href="https://igaw1.com"
+                    ><img src="./recursos/imagenes/ig.svg" alt="Logo Instagram">
+                        
+                        intagram
+                    </a>
+                </li>
+            </ul>
+        </footer>
+    </body>
+</html>
